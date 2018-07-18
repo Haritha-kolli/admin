@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="PrometheusADMIN.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="CphBody" runat="server">
+    <div id="AdminMenu">
+        <asp:Hyperlink runat="server" Text="Home"></asp:Hyperlink>&nbsp&nbsp |
+        &nbsp &nbsp 
+        <asp:HyperLink runat="server" Text="Courses"></asp:HyperLink>&nbsp&nbsp | &nbsp&nbsp 
+        <asp:HyperLink runat="server" Text="Teachers"></asp:HyperLink>&nbsp&nbsp | &nbsp&nbsp 
+        <asp:HyperLink runat="server" Text="Students"></asp:HyperLink>&nbsp&nbsp | &nbsp&nbsp 
+    </div>
+    <div>
+        <asp:ContentPlaceHolder runat="server" ID="CphAdminBody"></asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
