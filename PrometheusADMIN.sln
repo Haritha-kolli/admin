@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrometheusADMIN", "PrometheusADMIN\PrometheusADMIN.csproj", "{DB2A94CE-07FC-4988-94CA-1537B20327BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB2A94CE-07FC-4988-94CA-1537B20327BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2A94CE-07FC-4988-94CA-1537B20327BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2A94CE-07FC-4988-94CA-1537B20327BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2A94CE-07FC-4988-94CA-1537B20327BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE83EA2F-CB7A-44B8-84CB-6444D1FF1167}
+	EndGlobalSection
+EndGlobal
